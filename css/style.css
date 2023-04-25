@@ -13,6 +13,9 @@ body {
     background: #fff;
     color: #666666;
     font-family: "Open Sans", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+    text-align: none;
 }
 
 a {
@@ -222,6 +225,7 @@ h6 {
 
 #intro .carousel-background img {
     max-width: 100%;
+    background: white';
 }
 
 #intro .carousel-content {
@@ -646,7 +650,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #about {
-    /* background: url("../img/about-bg.jpg") center top no-repeat fixed; */
+    /* background: url("../img/about-bg.jpg") center top no-repeat fixed;  */
     background-size: cover;
     padding: 60px 0 40px 0;
     position: relative;
@@ -721,7 +725,7 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
     font-weight: 700;
     font-size: 20px;
-    padding: 0;
+    padding-top: 30px;
     margin: 40px 0 12px 0;
 }
 
@@ -785,6 +789,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-left: 60px;
     line-height: 24px;
     margin-bottom: 0;
+    top: 10px;
+}
+.des__ul {
+      top: 0;
 }
 
 /* Call To Action Section
